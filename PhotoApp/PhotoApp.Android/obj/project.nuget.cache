@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cR97mZHGDK5Xa22uEs5+WxM7yNA6ziPsLAaXtoEjCFBZGySeLHy16wXITNSulAmlOekkyTSoQPXABvDpHtuI6A==",
+  "dgSpecHash": "Qgxajqfhz3gD1Sjz1wgQaFLu5GJw2CBD+6grlV7OD/IwmdncJD1G19C3VlkvWLLEJKb3xqmKXRGKlRiUXlnqYw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jairo Perdomo\\source\\repos\\PhotoApp\\PhotoApp\\PhotoApp.Android\\PhotoApp.Android.csproj",
   "expectedPackageFiles": [
@@ -58,6 +58,7 @@
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.versionedparcelable\\1.1.1.6\\xamarin.androidx.versionedparcelable.1.1.1.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager\\1.0.0.6\\xamarin.androidx.viewpager.1.0.0.6.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.viewpager2\\1.0.0.8\\xamarin.androidx.viewpager2.1.0.0.8.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.google.android.material\\1.2.1.1\\xamarin.google.android.material.1.2.1.1.nupkg.sha512",

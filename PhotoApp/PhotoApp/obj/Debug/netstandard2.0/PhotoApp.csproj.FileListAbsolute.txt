@@ -15,3 +15,4 @@ C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstan
 C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\ref\PhotoApp.dll
 C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.pdb
 C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\Views\ListVideoView.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\Views\ViewVideoSelected.xaml.g.cs

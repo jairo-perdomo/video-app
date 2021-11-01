@@ -28,7 +28,7 @@ namespace PhotoApp
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new ViewVideoSelected());
         }
 
         protected override void OnStart()

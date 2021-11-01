@@ -29,12 +29,17 @@
                             </Grid.RowDefinitions>
 
                             <Label Text="{Binding name}"
-                               Grid.Column="1"
+                               Grid.Column="0"
                                Margin="10,0"
                                VerticalTextAlignment="Center"
                                FontAttributes="Bold"></Label>
 
                             <Label Text="{Binding description}"
+                               Grid.Column="1"
+                               VerticalTextAlignment="Center"
+                               FontAttributes="Bold"></Label>
+
+                            <Label Text="{Binding pathFile}"
                                Grid.Column="2"
                                VerticalTextAlignment="Center"
                                FontAttributes="Bold"></Label>

@@ -1,7 +1,5 @@
 ﻿using Plugin.Media;
 using System;
-using System.Threading.Tasks;
-using Xamarin.Essentials;
 using Xamarin.Forms;
 using PhotoApp.Models;
 using Xamarin.Forms.Xaml;

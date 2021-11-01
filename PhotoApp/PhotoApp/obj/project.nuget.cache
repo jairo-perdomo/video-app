@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "zFl4Zp2PcUFq4+cd8iNm/ik5oztHdttO16TE+yQJllB8Vez9gC/Al3Abf85AElVu5A39AbAyzdCz3HZnXstcfw==",
+  "dgSpecHash": "R5Vtxx/D1aUbgEGhiwhFdPNAeW7gV/DsoLkTUddeoiDVioNL37a6AvtpcFds+BQHIKZOzMUULEb8rllucNCN0A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jairo Perdomo\\source\\repos\\PhotoApp\\PhotoApp\\PhotoApp\\PhotoApp.csproj",
   "expectedPackageFiles": [
@@ -14,8 +14,12 @@
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.reflection.emit.ilgeneration\\4.7.0\\system.reflection.emit.ilgeneration.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.3\\system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xamarin.communitytoolkit\\1.2.0\\xamarin.communitytoolkit.1.2.0.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
