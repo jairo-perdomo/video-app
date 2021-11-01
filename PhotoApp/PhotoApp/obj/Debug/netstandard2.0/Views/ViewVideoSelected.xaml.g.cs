@@ -17,8 +17,16 @@ namespace PhotoApp.Views {
     public partial class ViewVideoSelected : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xam.Forms.VideoPlayer.VideoPlayer videoPlayer;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
+        private global::Xamarin.Forms.Button CloseButton;
+        
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "2.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(ViewVideoSelected));
+            videoPlayer = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xam.Forms.VideoPlayer.VideoPlayer>(this, "videoPlayer");
+            CloseButton = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.Button>(this, "CloseButton");
         }
     }
 }

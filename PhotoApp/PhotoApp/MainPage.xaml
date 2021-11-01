@@ -10,6 +10,7 @@
 
         <Button x:Name="btnAddVideo" Text="Añadir video" Clicked="btnAddVideo_Clicked"></Button>
         <Button x:Name="btnViewVideos" Text="Ver videos" Clicked="btnViewVideos_Clicked"></Button>
+        <Button x:Name="btnPlay" Text="Reproductor" Clicked="btnPlay_Clicked"></Button>
     </StackLayout>
 
 </ContentPage>

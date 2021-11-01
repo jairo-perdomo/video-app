@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Qgxajqfhz3gD1Sjz1wgQaFLu5GJw2CBD+6grlV7OD/IwmdncJD1G19C3VlkvWLLEJKb3xqmKXRGKlRiUXlnqYw==",
+  "dgSpecHash": "GMuCjEmRCL1qKkWie7w/t4Xw7y05UydwbHVbHcjH1RISp1NXa/9IjsEEKnrMkNi+nxKoGIuP1i4CE6tdNoiXpA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Jairo Perdomo\\source\\repos\\PhotoApp\\PhotoApp\\PhotoApp.Android\\PhotoApp.Android.csproj",
   "expectedPackageFiles": [
@@ -13,6 +13,7 @@
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xam.forms.videoplayer\\1.0.8\\xam.forms.videoplayer.1.0.8.nupkg.sha512",
     "C:\\Users\\Jairo Perdomo\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",

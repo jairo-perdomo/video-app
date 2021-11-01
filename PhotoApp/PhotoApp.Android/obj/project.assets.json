@@ -104,6 +104,25 @@
           "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
+      "Xam.Forms.VideoPlayer/1.0.8": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.4.0.991265"
+        },
+        "compile": {
+          "lib/MonoAndroid81/Xam.Forms.VideoPlayer.Android.dll": {},
+          "lib/MonoAndroid81/Xam.Forms.VideoPlayer.dll": {}
+        },
+        "runtime": {
+          "lib/MonoAndroid81/Xam.Forms.VideoPlayer.Android.dll": {},
+          "lib/MonoAndroid81/Xam.Forms.VideoPlayer.dll": {}
+        },
+        "resource": {
+          "lib/MonoAndroid81/ru/Xam.Forms.VideoPlayer.Android.resources.dll": {
+            "locale": "ru"
+          }
+        }
+      },
       "Xam.Plugin.Media/5.0.1": {
         "type": "package",
         "dependencies": {
@@ -1102,6 +1121,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Xam.Forms.VideoPlayer": "1.0.8",
           "Xam.Plugin.Media": "5.0.1",
           "Xamarin.CommunityToolkit": "1.2.0",
           "Xamarin.Essentials": "1.6.1",
@@ -1304,6 +1324,27 @@
         "system.runtime.compilerservices.unsafe.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Xam.Forms.VideoPlayer/1.0.8": {
+      "sha512": "hd38+Bwj5l8Q+YKLATqrWfdhDNCATbqw2qKav/8++49DgNcLQkz9yxQwH6x/BawArfu2uG6Q1N/XC7FMMSuRBA==",
+      "type": "package",
+      "path": "xam.forms.videoplayer/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/MonoAndroid81/Xam.Forms.VideoPlayer.Android.dll",
+        "lib/MonoAndroid81/Xam.Forms.VideoPlayer.dll",
+        "lib/MonoAndroid81/ru/Xam.Forms.VideoPlayer.Android.resources.dll",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP.dll",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP.pri",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.UWP/Xam.Forms.VideoPlayer.UWP.xr.xml",
+        "lib/UAP10.0/Xam.Forms.VideoPlayer.dll",
+        "lib/Xamarin.iOS10/Xam.Forms.VideoPlayer.dll",
+        "lib/Xamarin.iOS10/Xam.Forms.VideoPlayer.iOS.dll",
+        "lib/netstandard2.0/Xam.Forms.VideoPlayer.dll",
+        "xam.forms.videoplayer.1.0.8.nupkg.sha512",
+        "xam.forms.videoplayer.nuspec"
       ]
     },
     "Xam.Plugin.Media/5.0.1": {
@@ -2490,6 +2531,7 @@
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
       "PhotoApp >= 1.0.0",
+      "Xam.Forms.VideoPlayer >= 1.0.8",
       "Xam.Plugin.Media >= 5.0.1",
       "Xamarin.CommunityToolkit >= 1.2.0",
       "Xamarin.Essentials >= 1.6.1",
@@ -2539,6 +2581,10 @@
     "frameworks": {
       "monoandroid11.0": {
         "dependencies": {
+          "Xam.Forms.VideoPlayer": {
+            "target": "Package",
+            "version": "[1.0.8, )"
+          },
           "Xam.Plugin.Media": {
             "target": "Package",
             "version": "[5.0.1, )"

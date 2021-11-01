@@ -13,9 +13,13 @@ namespace PhotoApp.Droid
         protected async override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
+            //
 
             await CrossMedia.Current.Initialize();
 
+            // Instancia necesaria para el funcionamiento del plugin Xam.Forms.Videoplayer
+            Xam.Forms.VideoPlayer.Android.VideoPlayerRenderer.Init();
+            
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
             LoadApplication(new App());

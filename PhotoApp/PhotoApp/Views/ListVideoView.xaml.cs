@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using PhotoApp.Models;
 using System.Text;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -11,13 +12,16 @@ namespace PhotoApp.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ListVideoView : ContentPage
     {
+
         public ListVideoView()
         {
             InitializeComponent();
+            
         }
 
         protected override void OnAppearing()
         {
+            
             base.OnAppearing();
             chargeListView();
         }
@@ -31,5 +35,12 @@ namespace PhotoApp.Views
                 listVideos.ItemsSource = ListViewPersons;
             }
         }
+        private async void SwipeItem_Invoked(object sender, EventArgs e)
+        {
+            // var label = Grid.Children.OfType<Label>().FirstOrDefault();
+            
+            await Navigation.PushAsync(new ViewVideoSelected());
+        }
+        
     }
 }

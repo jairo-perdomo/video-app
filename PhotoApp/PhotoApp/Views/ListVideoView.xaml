@@ -13,14 +13,15 @@
                         <SwipeView.RightItems>
                             <SwipeItems>
                                 <SwipeItem Text="Ver"
-                                           BackgroundColor="DarkSeaGreen" />
+                                           BackgroundColor="DarkSeaGreen"
+                                           Invoked="SwipeItem_Invoked"/>
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <Grid HeightRequest="60"
                           VerticalOptions="CenterAndExpand">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*" />
                                 <ColumnDefinition Width="2*"/>
                             </Grid.ColumnDefinitions>
                             <Grid.RowDefinitions>
@@ -39,7 +40,7 @@
                                VerticalTextAlignment="Center"
                                FontAttributes="Bold"></Label>
 
-                            <Label Text="{Binding pathFile}"
+                            <Label x:Name="lblruta" Text="{Binding pathFile}"
                                Grid.Column="2"
                                VerticalTextAlignment="Center"
                                FontAttributes="Bold"></Label>
