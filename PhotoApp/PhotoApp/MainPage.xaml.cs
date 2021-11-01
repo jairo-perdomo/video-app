@@ -30,10 +30,10 @@ namespace PhotoApp
             await Navigation.PushAsync(ViewVideosPages);
 
         }
-
-        private async void btnPlay_Clicked(object sender, EventArgs e)
+       
+        private void btnPlay_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new ViewVideoSelected());
-        }
+
+        } 
     }
 }

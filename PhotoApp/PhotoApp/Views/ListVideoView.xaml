@@ -3,72 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PhotoApp.Views.ListVideoView">
 
-    <StackLayout HorizontalOptions="CenterAndExpand"
-                 
-                 VerticalOptions="CenterAndExpand">
-        <CollectionView  x:Name="listVideos">
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <CollectionView ItemsSource="{Binding MyVideos}" x:Name="ListVideos" SelectionMode="Single" SelectionChanged="ListVideos_SelectionChanged">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <SwipeView>
                         <SwipeView.RightItems>
                             <SwipeItems>
-                                <SwipeItem Text="Ver"
-                                           BackgroundColor="DarkSeaGreen"
-                                           Invoked="SwipeItem_Invoked"/>
+                                <SwipeItem Text="Ver" BackgroundColor="Blue" Invoked="SwipeItem_Invoked" />
+                                
                             </SwipeItems>
                         </SwipeView.RightItems>
-                        <Grid HeightRequest="60"
-                          VerticalOptions="CenterAndExpand">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="*"/>
-                                <ColumnDefinition Width="*" />
-                                <ColumnDefinition Width="2*"/>
-                            </Grid.ColumnDefinitions>
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="*"/>
-                                <RowDefinition Height="1"/>
-                            </Grid.RowDefinitions>
-
-                            <Label Text="{Binding name}"
-                               Grid.Column="0"
-                               Margin="10,0"
-                               VerticalTextAlignment="Center"
-                               FontAttributes="Bold"></Label>
-
-                            <Label Text="{Binding description}"
-                               Grid.Column="1"
-                               VerticalTextAlignment="Center"
-                               FontAttributes="Bold"></Label>
-
-                            <Label x:Name="lblruta" Text="{Binding pathFile}"
-                               Grid.Column="2"
-                               VerticalTextAlignment="Center"
-                               FontAttributes="Bold"></Label>
-                            <BoxView Grid.Row="1"
-                                 HeightRequest="1"
-                                 Grid.ColumnSpan="3"
-                                 BackgroundColor="Black"/>
-                        </Grid>
+                        <StackLayout>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                    <RowDefinition Height="Auto"></RowDefinition>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                    <ColumnDefinition Width="*"></ColumnDefinition>
+                                </Grid.ColumnDefinitions>
+                                <Label Text="{Binding name}" Grid.Row="0" Grid.Column="0" TextColor="Gray"></Label>
+                                <Label Text="{Binding description}" Grid.Row="0" Grid.Column="1" TextColor="Gray"></Label>
+                                <Label Text="{Binding pathFile}" Grid.Row="0" Grid.Column="2" TextColor="Gray" HorizontalOptions="Center"></Label>
+                            </Grid>
+                        </StackLayout>
                     </SwipeView>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-            <CollectionView.Header>
-                <Grid BackgroundColor="#09C"
-                          HeightRequest="40">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="2*"/>
-                    </Grid.ColumnDefinitions>
-
-                    <Label Text="Nombre"
-                               TextColor="White"
-                               VerticalOptions="Center"
-                               HorizontalOptions="Center"/>
-                </Grid>
-            </CollectionView.Header>
         </CollectionView>
+        
+        <!-- <Label Text="Videos guardados" FontSize="Medium" HorizontalOptions="Center" Padding="10"></Label>
+        <ListView x:Name="listVideos" ItemSelected="listVideos_ItemSelected" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                                <RowDefinition Height="Auto"></RowDefinition>
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <Label Text="{Binding code}" x:Name="colCode" Grid.Row="0" Grid.Column="0" TextColor="Blue" HorizontalOptions="Center"></Label>
+                            <Label Text="{Binding name}" Grid.Row="0" Grid.Column="1" TextColor="Gray"></Label>
+                            <Label Text="{Binding description}" Grid.Row="0" Grid.Column="2" TextColor="Gray"></Label>
+                            <Label Text="{Binding pathFile}" Grid.Row="0" Grid.Column="3" TextColor="Gray" HorizontalOptions="Center"></Label>
+                        </Grid>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView> -->
+        
     </StackLayout>
-
-
 </ContentPage>
