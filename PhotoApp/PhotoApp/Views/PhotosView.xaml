@@ -15,8 +15,10 @@
             </Grid.ColumnDefinitions>
             <Image x:Name="imgcamara" BackgroundColor="LightSlateGray" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.ColumnSpan="3"/>
             <BoxView Grid.Row="1" Grid.Column="0"/>
-            <Button x:Name="btnfoto" Text="Hacer la foto" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" TextColor="Black" BackgroundColor="Aqua"/>
+            <Button x:Name="btnfoto" Text="Hacer la foto" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" TextColor="Black" BackgroundColor="DodgerBlue" FontAttributes="Bold" Margin="2"/>
             <BoxView Grid.Row="1" Grid.Column="2"/>
+            <Button x:Name="btnvideo" Text="Grabar video" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="2" BackgroundColor="DodgerBlue" FontAttributes="Bold" Margin="2"></Button>
         </Grid>
+        
     </ContentPage.Content>
 </ContentPage>
