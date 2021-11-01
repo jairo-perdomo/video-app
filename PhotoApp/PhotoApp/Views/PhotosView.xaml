@@ -5,7 +5,10 @@
     <ContentPage.Content>
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
+                <RowDefinition Height="300" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
                 <RowDefinition Height="Auto" />
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
@@ -13,11 +16,11 @@
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-            <Image x:Name="imgcamara" BackgroundColor="LightSlateGray" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Grid.Row="0" Grid.ColumnSpan="3"/>
-            <BoxView Grid.Row="1" Grid.Column="0"/>
-            <Button x:Name="btnfoto" Text="Hacer la foto" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" TextColor="Black" BackgroundColor="DodgerBlue" FontAttributes="Bold" Margin="2"/>
-            <BoxView Grid.Row="1" Grid.Column="2"/>
-            <Button x:Name="btnvideo" Text="Grabar video" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="2" BackgroundColor="DodgerBlue" FontAttributes="Bold" Margin="2"></Button>
+            <Image x:Name="imgcamara" BackgroundColor="LightSlateGray" HorizontalOptions="FillAndExpand" Grid.Row="0" Grid.ColumnSpan="3"/>
+            <Button x:Name="btnvideo" Text="Grabar video" HorizontalOptions="FillAndExpand" Grid.Row="1" Grid.Column="1" BackgroundColor="DodgerBlue" FontAttributes="Bold" Margin="2"></Button>
+            <Entry x:Name="txtName" Placeholder="Ingrese un nombre de video" Grid.Row="2" Grid.ColumnSpan="3" Keyboard="Plain"></Entry>
+            <Entry x:Name="txtDescription" Placeholder="Ingrese descripcion de video" Grid.Row="3" Grid.ColumnSpan="3" Keyboard="Plain"></Entry>
+            <Button x:Name="btnSave" Text="Guardar" Clicked="btnSave_Clicked" HorizontalOptions="FillAndExpand" Grid.Row="4" Grid.Column="1" BackgroundColor="DarkSeaGreen" FontAttributes="Bold"></Button>
         </Grid>
         
     </ContentPage.Content>

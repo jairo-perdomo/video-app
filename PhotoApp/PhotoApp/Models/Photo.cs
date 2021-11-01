@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -6,12 +7,20 @@ namespace PhotoApp.Models
 {
     public class Photo
     {
-        private int code { get; set; }
+        [PrimaryKey, AutoIncrement]
+        public int code { get; set; }
         
-        private String name { get; set; }
+        [MaxLength(100)]
+        public String name { get; set; }
 
-        private String description { get; set; }
+        [MaxLength(255)]
+        public String description { get; set; }
 
-        private String pathFile { get; set }
+        public String pathFile { get; set; }
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
 }
