@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoApp.Android", "PhotoApp\PhotoApp.Android\PhotoApp.Android.csproj", "{F8FC75D1-8AAB-4367-B645-CC184AD0F418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhotoApp", "PhotoApp\PhotoApp\PhotoApp.csproj", "{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8FC75D1-8AAB-4367-B645-CC184AD0F418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FC75D1-8AAB-4367-B645-CC184AD0F418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FC75D1-8AAB-4367-B645-CC184AD0F418}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F8FC75D1-8AAB-4367-B645-CC184AD0F418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FC75D1-8AAB-4367-B645-CC184AD0F418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FC75D1-8AAB-4367-B645-CC184AD0F418}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF016EEB-9AD1-4FDD-9E75-72AB5461429D}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3FEE6EFB-0E6C-4205-B899-E39AF7FB1C6E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,16 @@
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\bin\Debug\netstandard2.0\PhotoApp.deps.json
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\bin\Debug\netstandard2.0\PhotoApp.dll
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\bin\Debug\netstandard2.0\ref\PhotoApp.dll
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\bin\Debug\netstandard2.0\PhotoApp.pdb
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.csproj.AssemblyReference.cache
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\Views\PhotosView.xaml.g.cs
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.AssemblyInfoInputs.cache
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.AssemblyInfo.cs
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.csproj.CoreCompileInputs.cache
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.dll
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\ref\PhotoApp.dll
+C:\Users\Jairo Perdomo\source\repos\PhotoApp\PhotoApp\PhotoApp\obj\Debug\netstandard2.0\PhotoApp.pdb
