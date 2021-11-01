@@ -50,6 +50,7 @@ namespace PhotoApp.Views
             pathSelectedVideo = null;
         } 
 
+        /* 
         private async void listVideos_ItemSelected(object sender, SelectedItemChangedEventArgs e)
         {
             var videoSelected = (Photo)e.SelectedItem;
@@ -62,7 +63,7 @@ namespace PhotoApp.Views
                 await Navigation.PushAsync(new ViewVideoSelected(pathVideoObtained));
             }
 
-        }
+        } */
 
         private void ListVideos_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
@@ -74,6 +75,7 @@ namespace PhotoApp.Views
             var selectedContact = currentSelectedContact.FirstOrDefault() as Photo;
             // await DisplayAlert("Titulo", "Ruta Seleccionada:" + selectedContact.pathFile, "OK");
             pathSelectedVideo = selectedContact.pathFile;
+            Console.WriteLine(pathSelectedVideo); 
             /* Debug.WriteLine("FullName: " + selectedContact.name);
             Debug.WriteLine("Email: " + selectedContact.descripcion);
             Debug.WriteLine("Phone: " + selectedContact.Phone);

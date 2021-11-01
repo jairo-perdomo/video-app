@@ -27,7 +27,7 @@ namespace PhotoApp.Views
 
                 if (!CrossMedia.Current.IsCameraAvailable || !CrossMedia.Current.IsTakePhotoSupported)
                 {
-                    await DisplayAlert("No hay camara", "No se deteca la camara.", "Ok");
+                    await DisplayAlert("No hay camara", "No se detecta la camara.", "Ok");
                     return;
                 }
 
@@ -40,7 +40,7 @@ namespace PhotoApp.Views
                 if (file == null)
                     return;
 
-                await DisplayAlert("Video Recorded", "Location: " + file.Path, "OK");
+                await DisplayAlert("Video grabado", "Ubicacion: " + file.Path, "OK");
                 rutaDeVideo = file.Path;
                 file.Dispose();
 
@@ -65,7 +65,8 @@ namespace PhotoApp.Views
             var result = await App.BaseDatos.saveVideo(video);
             if(result == 1)
             {
-                await DisplayAlert("Guardar", "Video guardado correctamente", "OK");
+                await DisplayAlert("Grabacion", "Video guardado correctamente", "OK");
+                await Navigation.PopAsync();
             }
         }
     }

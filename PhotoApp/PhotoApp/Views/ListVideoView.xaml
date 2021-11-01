@@ -4,20 +4,21 @@
              x:Class="PhotoApp.Views.ListVideoView">
 
     <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Frame BackgroundColor="#2196F3" Padding="10" CornerRadius="0">
+            <Label Text="Lista de Videos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
         <CollectionView ItemsSource="{Binding MyVideos}" x:Name="ListVideos" SelectionMode="Single" SelectionChanged="ListVideos_SelectionChanged">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <SwipeView>
                         <SwipeView.RightItems>
                             <SwipeItems>
-                                <SwipeItem Text="Ver" BackgroundColor="Blue" Invoked="SwipeItem_Invoked" />
-                                
+                                <SwipeItem Text="Ver" BackgroundColor="#2196F3" Invoked="SwipeItem_Invoked" />
                             </SwipeItems>
                         </SwipeView.RightItems>
                         <StackLayout>
                             <Grid>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="Auto"></RowDefinition>
                                     <RowDefinition Height="Auto"></RowDefinition>
                                 </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
@@ -25,9 +26,9 @@
                                     <ColumnDefinition Width="*"></ColumnDefinition>
                                     <ColumnDefinition Width="*"></ColumnDefinition>
                                 </Grid.ColumnDefinitions>
-                                <Label Text="{Binding name}" Grid.Row="0" Grid.Column="0" TextColor="Gray"></Label>
-                                <Label Text="{Binding description}" Grid.Row="0" Grid.Column="1" TextColor="Gray"></Label>
-                                <Label Text="{Binding pathFile}" Grid.Row="0" Grid.Column="2" TextColor="Gray" HorizontalOptions="Center"></Label>
+                                <Label Text="{Binding name}" Grid.Row="0" Grid.Column="0" TextColor="Black" Padding="10"></Label>
+                                <Label Text="{Binding description}" Grid.Row="0" Grid.Column="1" TextColor="Black"></Label>
+                                <Label Text="{Binding pathFile}" Grid.Row="0" Grid.Column="2" TextColor="Black" HorizontalOptions="Center" IsVisible="false"></Label>
                             </Grid>
                         </StackLayout>
                     </SwipeView>
